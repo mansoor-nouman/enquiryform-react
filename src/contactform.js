@@ -11,7 +11,7 @@ const ContactForm = () => {
 
   const sendEmail =async event => {
     event.preventDefault();
-    await axios.post('http://localhost:4000/send', { ...state })
+    await axios.post('https://enquiry-node-mansoor.herokuapp.com/send', { ...state })
     .then(response => {
         setResult(response.data);
         setState({
