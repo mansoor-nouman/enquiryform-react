@@ -22,7 +22,7 @@ const ContactForm = () => {
         console.log(err);
         setResult({
           success: false,
-          message: 'Something went wrong. Try again 123'
+          message: 'Something went wrong. Try again'
         });
       });
   };
